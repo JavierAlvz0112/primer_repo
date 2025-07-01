@@ -1,4 +1,5 @@
 #hola
+#mucho gusto 
 alumno1={ "rut":"11111111-1",
           "nombre":"Alexis Sánchez",
           "edad":36
