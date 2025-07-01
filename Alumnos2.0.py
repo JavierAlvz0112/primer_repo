@@ -30,25 +30,3 @@ while True:
         break
     else:
         print('Opcion Incorrecta')
-'''
-rut="xxx"
-while rut!="-1":
-    rut=input('Ingrese rut: ')
-    nombre=input('Ingrese Nombre: ')
-    edad=int(input('Ingrese Edad: '))
-    alumno={}
-    alumno["rut"]=rut   
-    alumno["nombre"]=nombre 
-    alumno["edad"]=edad
-    alumnos.append(alumno)  
-for alumno in alumnos:
-    print(alumno)
-
-
-for alumno in alumnos:
-    for clave,valor in alumno.items():
-        print(alumno)
-        if clave=="edad" and valor>=50:
-            print(alumno["nombre"],alumno.get("nombre1",0))
-        print(alumno)
-'''
